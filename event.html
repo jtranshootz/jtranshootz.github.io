@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Album — JTran Shootz Photography</title>
+  <link rel="icon" href="assets/images/logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/logo.png" alt="JTran Shootz Photography logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="event-header">
+    <span class="event-date" id="event-date">Loading…</span>
+    <h1 id="event-title">Loading album…</h1>
+    <p class="event-meta" id="event-meta"></p>
+  </header>
+
+  <section style="padding-top: 32px;">
+    <div class="container">
+      <a href="events.html" class="back-link">&larr; Back to all events</a>
+      <div class="photo-grid" id="photo-grid">
+        <p class="empty-state">Loading photos…</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 JTran Shootz Photography. All rights reserved.</p>
+    <p><a href="contact.html">Get in touch</a></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-fav" id="lightbox-fav" aria-label="Add to picks">&#9825;</button>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+      <img id="lightbox-img" src="" alt="" />
+      <button class="lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+    </div>
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <!-- Floating picks bar -->
+  <button class="picks-bar" id="picks-bar">
+    <span class="heart">&#9829;</span>
+    <span id="picks-count">0</span> picks — view &amp; send
+  </button>
+
+  <!-- Picks panel -->
+  <div class="picks-overlay" id="picks-overlay">
+    <div class="picks-panel">
+      <button class="picks-panel-close" id="picks-panel-close" aria-label="Close">&times;</button>
+      <h3>Your Picks</h3>
+      <p class="picks-sub">Select the photos you love, then send us the list — no account or checkout needed.</p>
+      <ul class="picks-list" id="picks-list"></ul>
+      <div class="picks-actions" id="picks-actions"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/event.js"></script>
+</body>
+</html>

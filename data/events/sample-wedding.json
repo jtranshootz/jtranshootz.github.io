@@ -1,0 +1,31 @@
+{
+  "slug": "sample-wedding",
+  "title": "Sample Wedding",
+  "date": "2026-06-20",
+  "photos": [
+    {
+      "number": 1,
+      "file": "assets/events/sample-wedding/001.jpg"
+    },
+    {
+      "number": 2,
+      "file": "assets/events/sample-wedding/002.jpg"
+    },
+    {
+      "number": 3,
+      "file": "assets/events/sample-wedding/003.jpg"
+    },
+    {
+      "number": 4,
+      "file": "assets/events/sample-wedding/004.jpg"
+    },
+    {
+      "number": 5,
+      "file": "assets/events/sample-wedding/005.jpg"
+    },
+    {
+      "number": 6,
+      "file": "assets/events/sample-wedding/006.jpg"
+    }
+  ]
+}
