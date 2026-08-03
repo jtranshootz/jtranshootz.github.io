@@ -1,12 +1,5 @@
 [
   {
-    "slug": "sample-wedding",
-    "title": "Sample Wedding",
-    "date": "2026-06-20",
-    "cover": "assets/events/sample-wedding/001.jpg",
-    "count": 6
-  },
-  {
     "slug": "carlsbad-world-series",
     "title": "Carlsbad World Series",
     "date": "2026-08-02",
