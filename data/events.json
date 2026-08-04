@@ -5,5 +5,12 @@
     "date": "2026-08-02",
     "cover": "assets/events/carlsbad-world-series/001.jpg",
     "count": 46
+  },
+  {
+    "slug": "texas-vs-japan",
+    "title": "Texas vs Japan",
+    "date": "2026-08-03",
+    "cover": "assets/events/texas-vs-japan/001.jpg",
+    "count": 88
   }
 ]
