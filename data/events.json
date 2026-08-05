@@ -12,5 +12,12 @@
     "date": "2026-08-03",
     "cover": "assets/events/texas-vs-japan/001.jpg",
     "count": 88
+  },
+  {
+    "slug": "5-star-14u",
+    "title": "5 Star 14u",
+    "date": "2026-06-28",
+    "cover": "assets/events/5-star-14u/001.jpg",
+    "count": 57
   }
 ]
