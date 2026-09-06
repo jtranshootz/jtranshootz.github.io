@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — JTran Shootz Photography</title>
+  <meta name="description" content="A selection of Jaxon Tran's best action, event, and portrait photography." />
+  <link rel="icon" href="assets/images/logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/images/logo.png" alt="JTran Shootz Photography logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="event-header">
+    <span class="event-date">Selected Work</span>
+    <h1>Portfolio</h1>
+    <p class="event-meta">A look at some of my favorite shots</p>
+  </header>
+
+  <section style="padding-top: 32px;">
+    <div class="container">
+      <div class="photo-grid portfolio-grid" id="portfolio-grid">
+        <p class="empty-state">Loading photos…</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 JTran Shootz Photography. All rights reserved.</p>
+    <p><a href="contact.html">Get in touch</a></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+      <img id="lightbox-img" src="" alt="" />
+      <button class="lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
