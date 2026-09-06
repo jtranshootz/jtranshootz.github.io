@@ -792,3 +792,11 @@ footer a {
 footer a:hover {
   color: var(--accent);
 }
+
+.portfolio-grid {
+  padding-bottom: 40px;
+}
+
+.portfolio-thumb {
+  aspect-ratio: 4 / 5;
+}
